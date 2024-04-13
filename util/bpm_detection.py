@@ -35,7 +35,7 @@ def read_wav(filename):
         print(e)
         return
 
-    # typ = choose_type( wf.getsampwidth() ) # TODO: implement choose_type
+    # typ = choose_type( wf.getsampwidth() )
     nsamps = wf.getnframes()
     assert nsamps > 0
 
